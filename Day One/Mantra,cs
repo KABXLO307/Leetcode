@@ -1,0 +1,20 @@
+namespace PracticeIT
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            mantra();
+            Console.WriteLine("");
+            mantra();
+        }
+
+
+        public static void mantra()
+        {
+            Console.WriteLine("There's one thing every coder must understand:");
+            Console.WriteLine("The System.out.println command.");
+        }
+    }
+}
